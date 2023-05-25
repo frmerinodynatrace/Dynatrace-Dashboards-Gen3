@@ -42,7 +42,7 @@ The middle section is broken down into three sections. The far left section cont
  
 ![Conversion Overview Dashboard](ConversionOverview-3.png)
 
-The bottom section charts conversion and abandon counts over time. 
+The bottom section charts conversion and abandon counts over the last seven days. 
 
 # Deploy
 
