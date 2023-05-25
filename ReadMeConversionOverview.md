@@ -32,7 +32,7 @@ Each KPI cell displays the current value for the last 24 hours. Each KPI is comp
 
 ![Conversion Overview Dashboard](ConversionOverview-2.png)
 
-The middle section is broken down into three sections. The far left section contains a donut chart tile with percent breakdowns for Satisfied, Tolerated or Frustrated conversions. The far right section contains a donut chart tile with percent breakdowns for Satisfied, Tolerated or Frustrated abandons. The middle section contains KPI metric rates (with comparison to a seven-day time shift) for: 
+The middle section is broken down into three sections. The far-left section contains a donut chart tile with percent breakdowns for Satisfied, Tolerated or Frustrated conversions. The far-right section contains a donut chart tile with percent breakdowns for Satisfied, Tolerated or Frustrated abandons. The middle section contains KPI metric rates (with comparison to a seven-day time shift) for: 
 - No Risk Conversion Rate - Conversion Rate for Satisfied Sessions.
 - Low Risk Conversion Rate - Conversion Rate for Tolerated Sessions.
 - High Risk Conversion Rate - Conversion Rate for Frustrated Sessions.
