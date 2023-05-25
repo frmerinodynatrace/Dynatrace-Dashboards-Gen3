@@ -1,5 +1,5 @@
-# Executive Overview Dashboard
-This dashboard pack provides an Executive Overview for an application.
+# Conversion Overview Dashboard
+This dashboard provides an executive level overview and risk assessment on application conversions.
 
 ![Conversion Overview Dashboard](ConversionOverview.png)
 
@@ -16,7 +16,7 @@ This dashboard pack provides an Executive Overview for an application.
 
 # User Guide
 
-The Executive Overview Dashboard is broken down into three sections.
+The Conversion Overview Dashboard is broken down into three sections.
 
 ![Executive Overview Dashboard](EO2-1.png)
 
