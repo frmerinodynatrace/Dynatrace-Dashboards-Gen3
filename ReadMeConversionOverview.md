@@ -28,7 +28,7 @@ This dashboard provides an executive level overview and risk assessment on appli
 
 - Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Conversion%20Overview.json
 - Edit the json file and replace the following
--- Blah 
+ - ${app.name} -> The name of your application (i.e. www.angular.easytravel.com) 
 
 
 # User Guide
