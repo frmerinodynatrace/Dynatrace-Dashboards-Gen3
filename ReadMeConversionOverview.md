@@ -5,8 +5,8 @@ This dashboard provides an executive level overview and risk assessment on appli
 
 # Prerequisites
 
-1. Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a converted user session (i.e. Order Confirmation Page).
-2. Optional: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties) for a page that indicates the start of a potential converted session (i.e. Add to Cart Page Name).
+Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a converted user session (i.e. Order Confirmation Page).
+
 
 # Target Audience
 
