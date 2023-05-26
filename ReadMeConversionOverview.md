@@ -24,6 +24,13 @@ This dashboard provides an executive level overview and risk assessment on appli
 - Are my users converting efficiently? 
 - Does a change in my APDEX score impact my conversion rate?
 
+# Install Instructions
+
+- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Conversion%20Overview.json
+- Edit the json file and replace the following
+-- Blah 
+
+
 # User Guide
 
 The Conversion Overview Dashboard is broken down into three sections.
