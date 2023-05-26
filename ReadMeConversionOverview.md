@@ -14,6 +14,16 @@ This dashboard provides an executive level overview and risk assessment on appli
 - Line of Business
 - Executive
 
+# Use Cases
+
+- Is user experience impacting my conversion rate?
+- Do I have conversion risk due to user experience?
+- Are performance and error trends impacting my conversion rate?
+- Do I have conversion rate drops during certain timeframes?
+- What days/times do I have good conversion rates?
+- Are my users converting efficiently? 
+- Does a change in my APDEX score impact my conversion rate?
+
 # User Guide
 
 The Conversion Overview Dashboard is broken down into three sections.
@@ -42,8 +52,4 @@ The middle section is broken down into three sections. The far-left section cont
  
 ![Conversion Overview Dashboard](ConversionOverview-3.png)
 
-The bottom section charts conversion and abandon counts over the last seven days. 
-
-# Deploy
-
-TBD
+The bottom section charts conversion and abandon counts over the last seven days.
