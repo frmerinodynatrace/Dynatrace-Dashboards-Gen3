@@ -15,13 +15,14 @@ None.
 
 # Use Cases
 
-- Is user experience impacting my conversion rate?
-- Do I have conversion risk due to user experience?
-- Are performance and error trends impacting my conversion rate?
-- Do I have conversion rate drops during certain timeframes?
-- What days/times do I have good conversion rates?
-- Are my users converting efficiently? 
-- Does a change in my APDEX score impact my conversion rate?
+- What is my overall APDEX score?
+- Is my user traffic increasing?
+- Do I have application efficiency issues?
+- Do I have any poor performance trend issues?
+- Do I have any error trend issues?
+- Is any application experience high error rates?
+- Is any application suffering from poor performance?
+- What days/times do I have good user experiences?
 
 # Install Instructions
 
