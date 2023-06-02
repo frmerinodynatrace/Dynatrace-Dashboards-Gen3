@@ -27,10 +27,9 @@ None.
 # Install Instructions
 
 - Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Portfolio%20Overview.json
-- Save the json file
 - Launch the new Gen3 UI
 - Select the Dashboard app
-- In the upper righthand corner, select Import
+- In the upper righthand corner, select Import and select your json file
 - Refresh your dashboard list and launch your Dashboard
 
 # User Guide
