@@ -31,13 +31,9 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 # Install Instructions
 
 - Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Executive%20Overview.json
-- Edit the json file and replace the following
-    - ${app.name} -> The name of your application (i.e. www.angular.easytravel.com)
-    - ${uspConversion} -> Your conversion goal (i.e. useraction.matchingconversiongoals=\"Credit card validated\")
-- Save the json file
 - Launch the new Gen3 UI
 - Select the Dashboard app
-- In the upper righthand corner, select Import
+- In the upper righthand corner, select Import and select your json file
 - Refresh your dashboard list and launch your Dashboard
 
 # User Guide
