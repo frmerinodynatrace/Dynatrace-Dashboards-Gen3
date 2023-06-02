@@ -28,13 +28,11 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 
 - Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Revenue%20Overview.json
 - Edit the json file and replace the following
-    - ${app.name} -> The name of your application (i.e. www.angular.easytravel.com)
-    - ${uspConversion} -> Your conversion goal (i.e. useraction.matchingconversiongoals=\"Credit card validated\")
     - ${uspRevenue} -> Your revenue session property (i.e. usersession.doubleproperties.revenue)
 - Save the json file
 - Launch the new Gen3 UI
 - Select the Dashboard app
-- In the upper righthand corner, select Import
+- In the upper righthand corner, select Upload and select your json file
 - Refresh your dashboard list and launch your Dashboard
 
 # User Guide
