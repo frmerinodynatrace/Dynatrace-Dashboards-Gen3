@@ -39,11 +39,18 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 # User Guide
 
-The Executive Overview Dashboard is broken down into three sections.
+The Executive Overview Dashboard is broken down into four sections.
+
+![Executive Overview Dashboard](ExecutiveOverview-0.png)
+
+The dashboard header section has three filters that you can apply to your Executive Overview Dashboard:
+- AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
+- MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
+- ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
 
 ![Executive Overview Dashboard](ExecutiveOverview-1.png)
 
-The top section is called the KPI banned. This section has the following KPIs:
+The top section is called the KPI banned. This section has the following KPIs: - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
 - Avg Duration: Time between the initial user input and complete page load.
 - Avg Errors: Average number of Request and JavaScript Errors.
 - Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
