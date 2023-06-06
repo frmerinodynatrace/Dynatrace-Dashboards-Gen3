@@ -22,7 +22,7 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 - Do I have application efficiency issues?
 - Do I have any poor performance trend issues?
 - Do I have any error trend issues?
-- Is my application experience high error rates?
+- Is my application experiencing high error rates?
 - Is my application suffering from poor performance?
 - What days/times do I have good user experiences?
 
