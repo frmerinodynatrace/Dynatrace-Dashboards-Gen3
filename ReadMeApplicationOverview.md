@@ -5,9 +5,7 @@ This dashboard provides an executive level overview for an Application.
 
 # Prerequisites
 
-Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates the start of a business transaction (i.e. Login Page).
-
-Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
+None.
 
 # Target Audience
 
@@ -42,8 +40,8 @@ The Application Overview Dashboard is broken down into three sections.
 The top section is called the KPI banned. This section has the following KPIs:
 - Avg Duration: Time between the initial user input and complete page load.
 - Avg Errors: Average number of Request and JavaScript Errors.
-- Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
-- Deficiency Rate: Rate of sessions that did not convert with poor user experience. A perfect deficiency rate is 0.
+- Efficiency Rate: Rate of sessions with good user experience. A perfect efficiency rate is 100.
+- Deficiency Rate: Rate of sessions with poor user experience. A perfect deficiency rate is 0.
 - Sessions: The total number of user sessions for your applications.
 - Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
 
