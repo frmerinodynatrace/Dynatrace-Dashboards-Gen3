@@ -20,7 +20,7 @@ None.
 - Do I have application efficiency issues?
 - Do I have any poor performance trend issues?
 - Do I have any error trend issues?
-- Is any application experience high error rates?
+- Is any application experiencing high error rates?
 - Is any application suffering from poor performance?
 - What days/times do I have good user experiences?
 
