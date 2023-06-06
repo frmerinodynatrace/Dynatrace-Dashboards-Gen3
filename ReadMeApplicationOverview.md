@@ -1,5 +1,5 @@
 # Application Overview Dashboard
-This dashboard provides an executive level for an Applications.
+This dashboard provides an executive level overview for an Application.
 
 ![Application Overview Dashboard](ApplicationOverview.png)
 
