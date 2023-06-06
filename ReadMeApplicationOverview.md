@@ -17,7 +17,6 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 # Use Cases
 
-- What is my APDEX score?
 - Is my user traffic increasing?
 - Do I have application efficiency issues?
 - Do I have any poor performance trend issues?
