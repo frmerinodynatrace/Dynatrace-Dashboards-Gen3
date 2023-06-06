@@ -36,7 +36,14 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 # User Guide
 
-The Application Business Overview Dashboard is broken down into three sections.
+The Application Business Overview Dashboard is broken down into four sections.
+
+![Application Business Overview Dashboard](ExecutiveBusinessOverview-0.png)
+
+The dashboard header section has three filters that you can apply to your Executive Overview Dashboard:
+- AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
+- MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
+- ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
 
 ![Application Business Overview Dashboard](ApplicationBusinessOverview-1.png)
 
