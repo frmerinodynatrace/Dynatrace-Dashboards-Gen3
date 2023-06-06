@@ -20,7 +20,7 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 - Are performance issues impacting my customer experience?
 - Are errors impacting my customer experience?
 - Are performance and error trends impacting my customer experience?
-- Are my KPIs rtrending in the right direction?
+- Are my KPIs trending in the right direction?
 - What days/times do I have good customer experience?
 - Are my users converting efficiently? 
 - Does a change in my APDEX score impact my customer experience?
