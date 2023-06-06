@@ -36,7 +36,7 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 The Application Business Overview Dashboard is broken down into four sections.
 
-![Application Business Overview Dashboard](ExecutiveBusinessOverview-0.png)
+![Application Business Overview Dashboard](ApplicationBusinessOverview-0.png)
 
 The dashboard header section has two filters that you can apply to your Executive Overview Dashboard:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
