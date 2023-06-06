@@ -45,7 +45,7 @@ The top section is called the KPI banned. This section has the following KPIs:
 - Avg Errors: Average number of Request and JavaScript Errors.
 - Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
 - Deficiency Rate: Rate of sessions that did not convert with poor user experience. A perfect deficiency rate is 0.
-- Sessions: The total number of user sessions for your applications.
+- Conversion Rate: Rate of sessions that converted.
 - Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
 
 Each KPI cell displays the current value for the last 24 hours. Each KPI is compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
