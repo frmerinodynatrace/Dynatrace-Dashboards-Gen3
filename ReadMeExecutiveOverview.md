@@ -26,7 +26,7 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 - Does a change in my APDEX score impact my customer experience?
 - Are my users staying engaged?
 - Do I have user satisfaction problems/trends?
-- Is my traffic trrending in the right direction?
+- Is my traffic trending in the right direction?
 - Is my bounce rate normal and trending in the right direction?
 
 # Install Instructions
