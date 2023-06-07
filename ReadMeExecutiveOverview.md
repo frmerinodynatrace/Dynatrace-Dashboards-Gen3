@@ -50,7 +50,7 @@ The dashboard header section has three filters that you can apply to your Execut
 
 ![Executive Overview Dashboard](ExecutiveOverview-1.png)
 
-The top section is called the KPI banned. This section has the following KPIs: - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
+The top section is called the KPI banner. This section has the following KPIs:
 - Avg Duration: Time between the initial user input and complete page load.
 - Avg Errors: Average number of Request and JavaScript Errors.
 - Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
