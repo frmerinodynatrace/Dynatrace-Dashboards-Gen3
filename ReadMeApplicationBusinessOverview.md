@@ -44,7 +44,7 @@ The dashboard header section has two filters that you can apply to your Executiv
 
 ![Application Business Overview Dashboard](ApplicationBusinessOverview-1.png)
 
-The top section is called the KPI banned. This section has the following KPIs:
+The top section is called the KPI banner. This section has the following KPIs:
 - Avg Duration: Time between the initial user input and complete page load.
 - Avg Errors: Average number of Request and JavaScript Errors.
 - Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
