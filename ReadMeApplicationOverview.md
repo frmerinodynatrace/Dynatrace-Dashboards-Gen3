@@ -55,6 +55,8 @@ The middle section displays the following tables:
 - JavaScript Errors - The number of JavaScript Errors for your application.
 - Request Errors - The number of Request Errors for your application.
  
+ Each table 
+ 
 ![Application Overview Dashboard](ApplicationOverview-3.png)
 
 The bottom section charts customer satisfaction (Satisfied, Tolerated, Frustrated) over the last seven days.
