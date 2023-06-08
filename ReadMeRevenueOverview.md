@@ -9,7 +9,7 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
 
-Required: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/custom-applications/additional-configuration/define-custom-action-and-session-properties)) for revenue (i.e. Double: CartAmount).
+Required: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/custom-applications/additional-configuration/define-custom-action-and-session-properties) for revenue (i.e. Double: CartAmount).
 
 # Target Audience
 
