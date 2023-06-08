@@ -61,6 +61,8 @@ The middle section displays the following tables:
 - Duration - The average user action Duration for your application.
 - JavaScript Errors - The number of JavaScript Errors for your application.
 - Request Errors - The number of Request Errors for your application.
+
+Each table displays the metric for the last 24 hours, 7 day timeshift, 14 day timeshift and 21 day timeshift. This enables trend analysis for each metric.
  
 ![Application Business Overview Dashboard](ApplicationBusinessOverview-3.png)
 
