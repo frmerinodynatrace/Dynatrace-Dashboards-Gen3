@@ -35,7 +35,7 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 - Select the Dashboard app
 - In the upper righthand corner, select Upload and select your json file
 - Refresh your dashboard list and launch your Dashboard
-- Modify the Revenue variable and replace with your Revenue session property
+- Modify the Revenue variable filter and replace with your Revenue session property
 
 # User Guide
 
