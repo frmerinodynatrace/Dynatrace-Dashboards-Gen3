@@ -55,7 +55,9 @@ The middle section displays the following tables:
 - Duration - The average user action Duration for each application.
 - JavaScript Errors - The number of JavaScript Errors for each application.
 - Request Errors - The number of Request Errors for each application.
- 
+
+ Each table displays the metric for the last 24 hours, 7 day timeshift, 14 day timeshift and 21 day timeshift. This enables trend analysis for each metric.
+  
 ![Portfolio Overview Dashboard](PortfolioOverview-3.png)
 
 The bottom section charts customer satisfaction (Satisfied, Tolerated, Frustrated) over the last seven days.
