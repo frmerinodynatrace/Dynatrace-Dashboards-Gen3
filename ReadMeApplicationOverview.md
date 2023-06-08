@@ -50,12 +50,12 @@ Each KPI cell displays the current value for the last 24 hours. Each KPI is comp
 ![Application Overview Dashboard](ApplicationOverview-2.png)
 
 The middle section displays the following tables: 
-- Sessions - The number of User Sessions for your application.
-- Duration - The average user action Duration for your application.
+- Requests - The number of User Action requests for your application.
+- Duration - The average User Action Duration for your application.
 - JavaScript Errors - The number of JavaScript Errors for your application.
 - Request Errors - The number of Request Errors for your application.
  
- Each table 
+ Each table displays the metric for the last 24 hours, 7 day timeshift, 14 day timeshift and 21 day timeshift. This enables trend analysis for each metric.
  
 ![Application Overview Dashboard](ApplicationOverview-3.png)
 
