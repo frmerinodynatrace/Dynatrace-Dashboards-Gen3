@@ -54,13 +54,10 @@ Each KPI cell displays the current value for the last 24 hours. Each KPI is comp
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-2.png)
 
 The middle section displays the following tables: 
-- Sessions - The number of User Sessions for each application.
-- Duration - The average user action Duration for each application.
-- JavaScript Errors - The number of JavaScript Errors for each application.
-- Request Errors - The number of Request Errors for each application.
+- FID - First Input Delay and the number of User Action requests.
+- CLS - Cumulative Layout Shift and the number of User Action requests.
+- LCP - Largest Contentful Paint and the number of User Action requests.
 
- Each table displays the metric for the last 24 hours, 7 day timeshift, 14 day timeshift and 21 day timeshift. This enables trend analysis for each metric.
-  
-![Portfolio Overview Dashboard](PortfolioOverview-3.png)
+![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-3.png)
 
-The bottom section charts customer satisfaction (Satisfied, Tolerated, Frustrated) over the last seven days.
+The bottom section charts FID, CLS and LCP over the last seven days.
