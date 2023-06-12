@@ -36,8 +36,9 @@ The Core Web Vitals Overview Dashboard is broken down into four sections.
 
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-0.png)
 
-The dashboard header section has one filter that you can apply to your Core Web Vitals Overview Dashboard:
+The dashboard header section has two filters that you can apply to your Core Web Vitals Overview Dashboard:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
+- LandingPage - You have two options: isexitaction<>null or isexitaction=true. Selecting the first variable will filter the dashboard for all user actions. Selecting the second variable will filter the dashboard for just landing actions.
 
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-1.png)
 
@@ -53,10 +54,15 @@ Each KPI cell displays the current value for the last 24 hours. Each KPI is comp
 
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-2.png)
 
-The middle section displays the following tables: 
+The middle section displays a table with the following columns: 
+- User Actions - Load actions from your application.
+- Requests - Total number of User Action requests.
+- Exit Rate - Rate of sessions that left your application from the User Action.
+- Apdex- Apdex rating for the User Action.
 - FID - First Input Delay and the number of User Action requests.
 - CLS - Cumulative Layout Shift and the number of User Action requests.
 - LCP - Largest Contentful Paint and the number of User Action requests.
+- Web Vitals Score - If **ALL** three web vitals (FID, CLS & LCP) are rated as good, then the User Action receives a passing grade. Otherwise the User Action receives a failing grade.
 
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-3.png)
 
