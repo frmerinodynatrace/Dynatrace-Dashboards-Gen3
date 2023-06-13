@@ -16,3 +16,5 @@ This repo provides Business Grade Dashboards for Dynatrace Gen3. Click on any Da
 ![Portfolio Overview Dashboard](PortfolioOverview.png)
 - Core Web Vitals Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeCoreWebVitalsOverview.md
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview.png)
+- Performance Conversion Analysis Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMePerformanceConversionAnalysis.md
+![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis.png)
