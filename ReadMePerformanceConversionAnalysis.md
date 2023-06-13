@@ -5,9 +5,9 @@ This dashboard provides a performance conversion analysis for your applications 
 
 # Prerequisites
 
-Required: ![Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
+Required: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
 
-Required: ![Configure Key User Action](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/additional-configuration/configure-key-user-actions-web) for the User Action that is to be analyzed.
+Required: [Configure Key User Action](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/additional-configuration/configure-key-user-actions-web) for the User Action that is to be analyzed.
 
 # Target Audience
 
