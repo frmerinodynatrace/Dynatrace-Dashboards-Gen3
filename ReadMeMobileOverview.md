@@ -1,37 +1,36 @@
-# Executive Overview Dashboard
-This dashboard provides an executive level overview on KPIs and Customer Experience.
+# Mobile Overview Dashboard
+This dashboard provides an executive level overview on KPIs and Customer Experience for Mobile Applications.
 
-![Executive Overview Dashboard](ExecutiveOverview.png)
+![Mobile Overview Dashboard](MobileOverview.png)
 
 # Prerequisites
 
-Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates the start of a business transaction (i.e. Login Page).
-
-Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
+None.
 
 # Target Audience
 
 - Application Owner
 - Line of Business
 - Executive
+- Mobile App Developer
 
 # Use Cases
 
 - Are performance issues impacting my customer experience?
-- Are errors impacting my customer experience?
+- Are errors impacting my mobile app?
 - Are performance and error trends impacting my customer experience?
 - Are my KPIs trending in the right direction?
 - What days/times do I have good customer experience?
 - Are my users converting efficiently? 
 - Does a change in my APDEX score impact my customer experience?
-- Are my users staying engaged?
-- Do I have user satisfaction problems/trends?
-- Is my traffic trending in the right direction?
-- Is my bounce rate normal and trending in the right direction?
+- Are crashes happening more in the latest app version?
+- Are crashe3 more common for a certain Carrier, Network or Device?
+- What Network has the poorest duration?
+- What Manufactor has the most errors?
 
 # Install Instructions
 
-- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Executive%20Overview.json
+- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Mobile%20Overview.json
 - Launch the new Gen3 UI
 - Select the Dashboard app
 - In the upper righthand corner, select Upload and select your json file
@@ -39,20 +38,23 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 # User Guide
 
-The Executive Overview Dashboard is broken down into four sections.
+The Mobile Overview Dashboard is broken down into four sections.
 
-![Executive Overview Dashboard](ExecutiveOverview-0.png)
+![Mobile Overview Dashboard](MobileOverview-0.png)
 
-The dashboard header section has three filters that you can apply to your Executive Overview Dashboard:
-- AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
+The dashboard header section has four filters that you can apply to your Executive Overview Dashboard:
+- AppName - List of mobile applications currently monitored by Dynatrace. Select the application to filter the dashboard for any mobile application.
 - MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
 - ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
+- KPI - List of KPIs used in the middle section. Values: Crashes, Duration & Errors.
 
-![Executive Overview Dashboard](ExecutiveOverview-1.png)
+![Mobile Overview Dashboard](MobileOverview-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
-- Avg Duration: Time between the initial user input and complete page load.
-- Avg Errors: Average number of Request and JavaScript Errors.
+- Sessions: Total number of users that have launched your Mobile App.
+- Avg Duration: Time between the initial user input and completed load.
+- Avg Errors: Average number of Errors.
+- Crashes: Total number of Mobile App crashes.
 - Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
 - Deficiency Rate: Rate of sessions that abandoned with poor user experience. A perfect deficiency rate is 0.
 - Conversion Rate: Rate of sessions that converted.
@@ -60,20 +62,16 @@ The top section is called the KPI banner. This section has the following KPIs:
 
 Each KPI cell displays the current value for the last 24 hours. Each KPI is compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
 
-![Executive Overview Dashboard](ExecutiveOverview-2.png)
+![Mobile Overview Dashboard](MobileOverview-2.png)
 
-The middle section KPI metrics (with comparison to a seven-day time shift) for: 
-- Sessions - Total number of user sessions.
-- New Sessions - Total number of new user sessions.
-- Satisfied Sessions - Total number of user sessions that had a user experience score of SATISFIED.
-- Tolerated Sessions - Total number of user sessions that had a user experience score of TOLERATED.
-- Frustrated Sessions - Total number of user sessions that had a user experience score of FRUSTRATED.
-- Avg Time On Site - Average session duration.
-- Requests - Total number of user actions.
-- Bounces - Total number of user sessions that bounced from the web site.
-- Conversions - Total number of user sessions that reached the conversion goal.
-- Abandons - Total number of user sessions that did not reach the conversion goal.
+The middle section pie charts for: 
+- App Version
+- Carrier
+- Connection Type
+- Network
+- Device
+- Manufacter
 
-![Executive Overview Dashboard](ExecutiveOverview-3.png)
+![Mobile Overview Dashboard](MobileeOverview-3.png)
 
 The bottom section charts customer satisfaction over the last seven days.
