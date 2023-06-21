@@ -24,7 +24,7 @@ None.
 - Are my users converting efficiently? 
 - Does a change in my APDEX score impact my customer experience?
 - Are crashes happening more in the latest app version?
-- Are crashe3 more common for a certain Carrier, Network or Device?
+- Are crashes more common for a certain Carrier, Network or Device?
 - What Network has the poorest duration?
 - What Manufactor has the most errors?
 
