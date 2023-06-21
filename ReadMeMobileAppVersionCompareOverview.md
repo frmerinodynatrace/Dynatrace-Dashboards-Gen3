@@ -26,7 +26,7 @@ None.
 
 # Install Instructions
 
-- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Mobile%20App%20Version%20Compare%20Overview.json
+- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Mobile%20App%20Version%20Compare.json
 - Launch the new Gen3 UI
 - Select the Dashboard app
 - In the upper righthand corner, select Upload and select your json file
