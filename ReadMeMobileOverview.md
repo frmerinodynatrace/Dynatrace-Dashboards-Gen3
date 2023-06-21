@@ -72,6 +72,6 @@ The middle section pie charts for:
 - Device
 - Manufacter
 
-![Mobile Overview Dashboard](MobileeOverview-3.png)
+![Mobile Overview Dashboard](MobileOverview-3.png)
 
 The bottom section charts customer satisfaction over the last seven days.
