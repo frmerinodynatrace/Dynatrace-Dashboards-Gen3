@@ -20,6 +20,8 @@ This repo provides Business Grade Dashboards for Dynatrace Gen3. Click on any Da
 ![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis.png)
 - User Journey Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeUserJourneyOverview.md
 ![User Journey Overview Dashboard](UserJourneyOverview.png)
+- Conversion Friction Analysis Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeConversionFrictionAnalysis.md
+![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis.png)
 - Mobile Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeMobileOverview.md
 ![Mobile Overview Dashboard](MobileOverview.png)
 - Mobile App Version Compare Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeMobileAppVersionCompareOverview.md
