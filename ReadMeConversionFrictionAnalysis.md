@@ -42,7 +42,7 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 
 The Conversion Friction Analysis Dashboard is broken down into four sections.
 
-![Conversion Friction Analysis Dashboard](ConversionFRictionAnalysis-0.png)
+![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-0.png)
 
 The dashboard header section has six filters that you can apply to your Conversion Friction Analysis Dashboard and one filter (KPI) that automatically determines the KPI that has the greatest impact on your conversion rate:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
@@ -53,7 +53,7 @@ The dashboard header section has six filters that you can apply to your Conversi
 - Model - This is a model factor used to project conversion and revenue impacts. This value is a percentage and is used to filter out noise. For example, a value of 25 will consider 25% of projected sessions that are abandoning with problems.
 - ConversionProperty - The session property for you application that indicates a converted session.
 
-![Conversion Friction Analysis Dashboard](ConversionFRictionAnalysis-1.png)
+![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
 - Sessions: Total number of user sessions.
