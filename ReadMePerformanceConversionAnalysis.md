@@ -64,4 +64,4 @@ The middle section displays the conversion analysis for your Key User Action. Ea
 
 ![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-3.png)
 
-The bottom section charts the conversion rate over the performance ranges.
+The bottom section charts the conversion rate over the performance ranges. The bottom right corner has two links. The ChatGPT link will detail how to tune the KPI with expert recommendations and the Help link provides dashboard help.
