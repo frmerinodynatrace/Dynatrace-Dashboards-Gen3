@@ -38,7 +38,7 @@ The Core Web Vitals Overview Dashboard is broken down into four sections.
 
 The dashboard header section has two filters that you can apply to your Core Web Vitals Overview Dashboard:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
-- LandingPage - You have two options: isexitaction<>null or isexitaction=true. Selecting the first variable will filter the dashboard for all user actions. Selecting the second variable will filter the dashboard for just landing actions.
+- ActionType - You have three options: Entry, Exit or All. Selecting the first variable will filter the dashboard for entry (Landing) user actions. Selecting the second variable will filter the dashboard for exit user actions. Selecting the third option will examine all user actions.
 
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-1.png)
 
