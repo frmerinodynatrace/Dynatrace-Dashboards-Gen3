@@ -1,5 +1,5 @@
 # Conversion Friction Analysis Dashboard
-This dashboard provides a conversion friction analysis for your applications and tells you the KPI that impacts your conversion rate the most.
+This dashboard provides a conversion friction analysis for your applications and tells you the KPI that has the greatest impact on your conversion rate.
 
 ![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis.png)
 
@@ -20,50 +20,53 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 
 # Use Cases
 
-- What is the APDEX for my Key User Action?
-- Is my user traffic increasing?
-- Does the performance of my Key User Action impacting my Conversion Rate?
-- Are users that interract with my Key User Action converting efficiently?
-- What is the optimal performance for my Key User Action with respect to conversions?
+-	Do I have a problem with my website?
+-	Is this problem impacting my users?
+-	What KPI is causing the problem?
+-	What user action(s) do I need to tune?
+-	How much improvement do I need to achieve to maximize conversions?
+-	How much is this problem costing my business?
+-	How do I fix this problem?
 
 # Install Instructions
 
-- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Performance%20Conversion%20Analysis.json
+- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Conversion%20Friction%20Analysis.json
 - Launch the new Gen3 UI
 - Select the Dashboard app
 - In the upper righthand corner, select Upload and select your json file
 - Refresh your dashboard list and launch your Dashboard
-- Modify the ConversionGoal variable filter and replace with your conversion session property
+- Modify the KPI variable filter and change appName and conversionGoal settings.
+- Modify the ConversionProperty variable filter and change the definition to your session property that indicates a converted session.
 
 # User Guide
 
-The Performance Conversion Analysis Dashboard is broken down into four sections.
+The Conversion Friction Analysis Dashboard is broken down into four sections.
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-0.png)
+![Conversion Friction Analysis Dashboard](ConversionFRictionAnalysis-0.png)
 
-The dashboard header section has five filters that you can apply to your Performance Conversion Analysis Dashboard:
+The dashboard header section has six filters that you can apply to your Conversion Friction Analysis Dashboard and one filter (KPI) that automatically determines the KPI that has the greatest impact on your conversion rate:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
-- ConversionGoal - The session property for you application that indicates a converted session.
-- KPI - List of KPIs used in analysis (i.e. Duration, Visually Complete Time).
-- Aggregate - List of aggregations used in analysis (i.e. Avg, Median).
-- KeyUserAction - A list of key user actions that you can analyze.
+- MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
+- ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
+- KPI - This filter automatically determines the KPI that has the greatest impact on your conversion rate.
+- AvgOrderValue - Select your average order value. If your application is not revenue generating, then select a value that reflects the internal cost associated with your business transaction. You can also modify the value list to add/adjust values presented.
+- Model - This is a model factor used to project conversion and revenue impacts. This value is a percentage and is used to filter out noise. For example, a value of 25 will consider 25% of projected sessions that are abandoning with problems.
+- ConversionProperty - The session property for you application that indicates a converted session.
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-1.png)
+![Conversion Friction Analysis Dashboard](ConversionFRictionAnalysis-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
-- Performance Metric: Configured based on the KPI and Aggregate selected (i.e. Avg Duration).
-- Sessions: Total number of user sessions that executed the Key User Action.
-- Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
-- Deficiency Rate: Rate of sessions that abandoned with poor user experience. A perfect deficiency rate is 0.
-- Conversion Rate: Rate of sessions that converted.
-- Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
+- Sessions: Total number of user sessions.
+- Current Conversion Rate: Rate of sessions that converted.
+- Projected Conversion Rate: Rate of sessions that are projected to convert if the KPI problem is neutralized.
+- Projected Revenue Impact: Projected increase in revenue over seven days if the KPI problem is neutralized.
 
-Each KPI cell displays the current value for the last 24 hours. Each KPI is compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
+The first two cells display the current value for the last 24 hours. These KPIs are compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-2.png)
+![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-2.png)
 
-The middle section displays the conversion analysis for your Key User Action. Each column filters the data based on the performance range of the Key User Action (i.e. <2s, 2s - 3s). The rows show the conversion count, abandon count and the conversion rate for your Key User Action. 
+The middle section provides a detailed summary about the KPI that has the greatest impact on your conversion rate. The summary will tell you the difference between converting and abandoning sessions and will project improvements if the difference is neutralized. 
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-3.png)
+![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-3.png)
 
-The bottom section charts the conversion rate over the performance ranges.
+The bottom section displays a table and a chart. The table lists the top user actions sorted by KPI impact. The chart plots the conversion rate split by the KPI performance (<2s, 2s-3s, etc). This section helps you understand the user action that needs to be tuned and the optimal goal for maximizing conversions. The bottom right corner has two links. The ChatGPT link will detail how to tune the KPI with expert recommendations and the Help link provides dashboard help.
