@@ -9,8 +9,6 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
 
-Required: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
-
 # Target Audience
 
 - Application Owner
@@ -36,7 +34,6 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 - In the upper righthand corner, select Upload and select your json file
 - Refresh your dashboard list and launch your Dashboard
 - Modify the KPI variable filter and change appName and conversionGoal settings.
-- Modify the ConversionProperty variable filter and change the definition to your session property that indicates a converted session.
 
 # User Guide
 
@@ -51,7 +48,6 @@ The dashboard header section has six filters that you can apply to your Conversi
 - KPI - This filter automatically determines the KPI that has the greatest impact on your conversion rate.
 - AvgOrderValue - Select your average order value. If your application is not revenue generating, then select a value that reflects the internal cost associated with your business transaction. You can also modify the value list to add/adjust values presented.
 - Model - This is a model factor used to project conversion and revenue impacts. This value is a percentage and is used to filter out noise. For example, a value of 25 will consider 25% of projected sessions that are abandoning with problems.
-- ConversionProperty - The session property for you application that indicates a converted session.
 
 ![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-1.png)
 
