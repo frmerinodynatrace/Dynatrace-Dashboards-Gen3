@@ -44,6 +44,8 @@ The dashboard header section has five filters that you can apply to your Perform
 - KPI - List of KPIs used in analysis (i.e. Duration, Visually Complete Time).
 - Aggregate - List of aggregations used in analysis (i.e. Avg, Median).
 - KeyUserAction - A list of key user actions that you can analyze.
+- MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
+- ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
 
 ![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-1.png)
 
