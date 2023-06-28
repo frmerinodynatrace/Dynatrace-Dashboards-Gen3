@@ -5,9 +5,9 @@ This dashboard provides a performance conversion analysis for your applications 
 
 # Prerequisites
 
-Required: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
+Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates the start of a business transaction (i.e. Login Page).
 
-Required: [Configure a Key User Action](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/additional-configuration/configure-key-user-actions-web) for the User Action that is to be analyzed.
+Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
 
 # Target Audience
 
@@ -41,7 +41,6 @@ The Performance Conversion Analysis Dashboard is broken down into four sections.
 
 The dashboard header section has five filters that you can apply to your Performance Conversion Analysis Dashboard:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
-- ConversionGoal - The session property for you application that indicates a converted session.
 - KPI - List of KPIs used in analysis (i.e. Duration, Visually Complete Time).
 - Aggregate - List of aggregations used in analysis (i.e. Avg, Median).
 - KeyUserAction - A list of key user actions that you can analyze.
