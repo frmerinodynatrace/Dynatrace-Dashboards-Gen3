@@ -26,3 +26,5 @@ This repo provides Business Grade Dashboards for Dynatrace Gen3. Click on any Da
 ![Mobile Overview Dashboard](MobileOverview.png)
 - Mobile App Version Compare Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeMobileAppVersionCompareOverview.md
 ![Mobile App Version Compare Overview Dashboard](MobileAppVersionCompareOverview.png)
+- Key User Action Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeKUAOverview.md
+![Key User Action Overview Dashboard](KUAOverview.png)
