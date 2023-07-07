@@ -34,7 +34,7 @@ None.
 
 The Key User Action Overview Dashboard is broken down into four sections.
 
-![Key user Action Overview Dashboard](![KUAOverview-0.png)
+![Key user Action Overview Dashboard](KUAOverview-0.png)
 
 The dashboard header section has three filters that you can apply to your Key User Action Overview Dashboard:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
