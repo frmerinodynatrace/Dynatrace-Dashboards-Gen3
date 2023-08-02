@@ -75,6 +75,8 @@ The middle section KPI metrics (with comparison to a seven-day time shift) for:
 - Conversions - Total number of user sessions that reached the conversion goal.
 - Abandons - Total number of user sessions that did not reach the conversion goal.
 
+Each KPI cell displays the current value based on the selected timeframe. Each KPI is compared to a time shift that is selected in the TimeShift variable dropdown and will display, in parentheses, the KPI difference and trend direction.
+
 ![Executive Overview Dashboard](ExecutiveOverview-3.png)
 
 The bottom section charts customer satisfaction over the selected timeframe.
