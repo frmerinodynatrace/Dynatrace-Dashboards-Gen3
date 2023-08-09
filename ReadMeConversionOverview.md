@@ -39,11 +39,11 @@ The Conversion Overview Dashboard is broken down into four sections.
 
 ![Conversion Overview Dashboard](ConversionOverview-0.png)
 
-The dashboard header section has three filters that you can apply to your Conversion Overview Dashboard:
+The dashboard header section has four filters that you can apply to your Conversion Overview Dashboard:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
 - MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
 - ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
-
+- TimeShift - Value in days used by metrics to compare against. For example, a value of 7 will compare the KPI based on the current timeframe and compare that value to the same timeframe shifted by 7 days.
 
 ![Conversion Overview Dashboard](ConversionOverview-1.png)
 
@@ -55,7 +55,7 @@ The top section is called the KPI banner. This section has the following KPIs:
 - Conversion Rate: Rate of sessions that converted.
 - Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
 
-Each KPI cell displays the current value for the last 24 hours. Each KPI is compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
+Each KPI cell displays the current value based on the selected timeframe. Each KPI is compared to a time shift that is selected in the TimeShift variable dropdown and will display, in parentheses, the KPI difference and trend direction.
 
 ![Conversion Overview Dashboard](ConversionOverview-2.png)
 
