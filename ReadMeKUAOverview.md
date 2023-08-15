@@ -67,4 +67,4 @@ The middle section displays the following tables:
  
 ![Key User Action Overview Dashboard](KUAOverview-3.png)
 
-The bottom section charts the 50th, 90th, 95th and 99th Percentiles, and traffic over selected timeframe.
+The bottom section charts the 50th, 90th, 95th and 99th Percentiles, and Traffic over selected timeframe.
