@@ -33,7 +33,15 @@ None.
 
 # User Guide
 
-The Application Overview Dashboard is broken down into three sections.
+The Application Overview Dashboard is broken down into four sections.
+
+![Application Overview Dashboard](ApplicationOverview-0.png)
+
+The dashboard header section has four filters that you can apply to your Executive Overview Dashboard:
+- AppName - List of applications currently monitored by Dynatrace that have conversion goals defined. Select the application to filter the dashboard for any application. 
+- KPI - List of KPI metrics (i.e. Duration). Select a KPI to apply as a filtert to your dashboard.
+- Aggregate - List of aggregation values (i.e. AVG). Select an aggregate to apply as a filtert to your dashboard.
+- TimeShift - Value in days used by metrics to compare against. For example, a value of 7 will compare the KPI based on the current timeframe and compare that value to the same timeframe shifted by 7 days.
 
 ![Application Overview Dashboard](ApplicationOverview-1.png)
 
@@ -45,7 +53,7 @@ The top section is called the KPI banner. This section has the following KPIs:
 - Sessions: The total number of user sessions for your applications.
 - Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
 
-Each KPI cell displays the current value for the last 24 hours. Each KPI is compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
+Each KPI cell displays the current value based on the selected timeframe. Each KPI is compared to a time shift that is selected in the TimeShift variable dropdown and will display, in parentheses, the KPI difference and trend direction.
 
 ![Application Overview Dashboard](ApplicationOverview-2.png)
 
@@ -55,8 +63,8 @@ The middle section displays the following tables:
 - JavaScript Errors - The number of JavaScript Errors for your application.
 - Request Errors - The number of Request Errors for your application.
  
- Each table displays the metric for the last 24 hours, 7 day timeshift, 14 day timeshift and 21 day timeshift. This enables trend analysis for each metric.
+Each table displays the metric for the current timeframe, 7 day timeshift, 14 day timeshift and 21 day timeshift. This enables trend analysis for each metric.
  
 ![Application Overview Dashboard](ApplicationOverview-3.png)
 
-The bottom section charts customer satisfaction (Satisfied, Tolerated, Frustrated) over the last seven days.
+The bottom section charts customer satisfaction (Satisfied, Tolerated, Frustrated) over the current timeframe.
