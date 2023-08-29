@@ -36,10 +36,12 @@ The Core Web Vitals Overview Dashboard is broken down into four sections.
 
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-0.png)
 
-The dashboard header section has two filters that you can apply to your Core Web Vitals Overview Dashboard:
+The dashboard header section has four filters that you can apply to your Core Web Vitals Overview Dashboard:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
 - ActionType - You have three options: Entry, Exit or All. Selecting the first variable will filter the dashboard for entry (Landing) user actions. Selecting the second variable will filter the dashboard for exit user actions. Selecting the third option will examine all user actions.
-
+- TimeShift - Value in days used by metrics to compare against. For example, a value of 7 will compare the KPI based on the current timeframe and compare that value to the same timeframe shifted by 7 days.
+- BrowserType - Select the browser type (i.e. Desktop Browser) to filter the dashboard.
+  
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
@@ -50,7 +52,7 @@ The top section is called the KPI banner. This section has the following KPIs:
 - LCP: Largest Contentful Paint (LCP) is a Core Web Vital that measures the time in seconds from when the page starts loading to when the largest text block or image element is rendered on the screen. Its aim is to measure when the page's main contents have finished loading.
 - Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
 
-Each KPI cell displays the current value for the last 24 hours. Each KPI is compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
+Each KPI cell displays the current value based on the selected timeframe. Each KPI is compared to a time shift that is selected in the TimeShift variable dropdown and will display, in parentheses, the KPI difference and trend direction.
 
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-2.png)
 
@@ -66,4 +68,4 @@ The middle section displays a table with the following columns:
 
 ![Core Web Vitals Overview Dashboard](CoreWebVitalsOverview-3.png)
 
-The bottom section charts FID, CLS and LCP over the last seven days.
+The bottom section charts FID, CLS and LCP over the selected timeframe.
