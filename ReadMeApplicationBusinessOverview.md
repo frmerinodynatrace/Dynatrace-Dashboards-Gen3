@@ -50,11 +50,12 @@ The dashboard header section has six filters that you can apply to your Executiv
 ![Application Business Overview Dashboard](ApplicationBusinessOverview-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
+- Sessions: The total number of user sessions for your applications.
 - Avg Duration: Time between the initial user input and complete page load.
 - Avg Errors: Average number of Request and JavaScript Errors.
-- Efficiency Rate: Rate of sessions with good user experience. A perfect efficiency rate is 100.
-- Deficiency Rate: Rate of sessions with poor user experience. A perfect deficiency rate is 0.
-- Sessions: The total number of user sessions for your applications.
+- Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
+- Deficiency Rate: Rate of sessions that abandoned with poor user experience. A perfect deficiency rate is 0.
+- Conversion Rate: Rate of sessions that converted.
 - Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
 
 Each KPI cell displays the current value based on the selected timeframe. Each KPI is compared to a time shift that is selected in the TimeShift variable dropdown and will display, in parentheses, the KPI difference and trend direction.
