@@ -6,7 +6,9 @@ This repo provides Business Grade Dashboards for Dynatrace Gen3. Click on any Da
 - [Table](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Table.json) 
 - [Categorical Bar Chart](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/CBC.json) 
 - [Timeseries Chart](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/TSC.json) 
-- [Pie Chart](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/PC.json) 
+- [Pie Chart](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/PC.json)
+
+# Content Library
 
 - Executive Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeExecutiveOverview.md
 ![Executive Overview Dashboard](ExecutiveOverview.png)
