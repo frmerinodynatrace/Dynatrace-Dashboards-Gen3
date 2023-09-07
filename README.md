@@ -13,6 +13,7 @@ This repo provides Business Grade Dashboards for Dynatrace Gen3. Click on any Da
 ## Code Variable Examples
 
 - [Applications](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Apps.json) 
+- [FrictionKPI](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/FrictionVariable.json) 
 
 ## Business Dashboard Content Library
 
