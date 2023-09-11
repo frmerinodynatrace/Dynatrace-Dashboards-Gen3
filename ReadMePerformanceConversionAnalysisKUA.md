@@ -1,4 +1,4 @@
-# Performance Conversion Analysis KUA Dashboard
+# Performance Conversion Analysis (KUA) Dashboard
 This dashboard provides a performance conversion analysis for your applications and tells you if the performance for a certain User Action impacts your conversion rate.
 
 ![Performance Conversion Analysis KUA Dashboard](PerformanceConversionAnalysisKUA.png)
@@ -26,7 +26,7 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 # Install Instructions
 
-- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Performance%20Conversion%20Analysis.json
+- Download [Dashboard JSON](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Performance%20Conversion%20Analysis%20(KUA).json)
 - Launch the new Gen3 UI
 - Select the Dashboard app
 - In the upper righthand corner, select Upload and select your json file
