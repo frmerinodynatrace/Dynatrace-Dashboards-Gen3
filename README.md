@@ -35,10 +35,10 @@ This repo provides Business Grade Dashboards for Dynatrace Gen3. Click on any Da
 ![Portfolio Overview Dashboard](PortfolioOverview.png)
 - User Journey Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeUserJourneyOverview.md
 ![User Journey Overview Dashboard](UserJourneyOverview.png)
-- Performance Conversion Analysis Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMePerformanceConversionAnalysis.md
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis.png)
-- Conversion Friction Analysis Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeConversionFrictionAnalysis.md
-![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis.png)
+- Performance Conversion Analysis (Application) Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMePerformanceConversionAnalysisApplication.md
+![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysisApplication.png)
+- Performance Conversion Analysis (KUA) Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMePerformanceConversionAnalysisKUA.md
+![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysisKUA.png)
 - Mobile Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeMobileOverview.md
 ![Mobile Overview Dashboard](MobileOverview.png)
 - Mobile App Version Compare Overview Dashboard: https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeMobileAppVersionCompareOverview.md
