@@ -1,7 +1,7 @@
-# Performance Conversion Analysis Dashboard
+# Performance Conversion Analysis KUA Dashboard
 This dashboard provides a performance conversion analysis for your applications and tells you if the performance for a certain User Action impacts your conversion rate.
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis.png)
+![Performance Conversion Analysis KUA Dashboard](PerformanceConversionAnalysisKUA.png)
 
 # Prerequisites
 
