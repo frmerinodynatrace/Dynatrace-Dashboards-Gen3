@@ -1,5 +1,6 @@
 # Performance Conversion Analysis (Application) Dashboard
-This dashboard provides a conversion friction analysis for your applications and tells you the KPI that has the greatest impact on your conversion rate.
+
+This dashboard provides a performance conversion analysis for your applications and tells you if the performance for any User Action impacts your conversion rate.
 
 ![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysisApplication.png)
 
