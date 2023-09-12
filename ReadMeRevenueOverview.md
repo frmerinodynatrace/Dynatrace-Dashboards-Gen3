@@ -29,7 +29,7 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 
 # Install Instructions
 
-- Download https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Revenue%20Overview.json
+- Download [Dashboard JSON](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Revenue%20Overview.json)
 - Save the json file
 - Launch the new Gen3 UI
 - Select the Dashboard app
