@@ -34,7 +34,6 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 - Select the Dashboard app
 - In the upper righthand corner, select Upload and select your json file
 - Refresh your dashboard list and launch your Dashboard
-- Modify the KPI variable filter and change appName and conversionGoal settings.
 
 # User Guide
 
