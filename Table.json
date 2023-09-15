@@ -1,3 +1,6 @@
+// Example tile code for a Table
+
+
 import { rumUserSessionsClient } from "@dynatrace-sdk/client-classic-environment-v1";
 
 export default async function () {

@@ -1,3 +1,5 @@
+// Variable that determines the KPI causing the most friction with respect to Conversion Rate
+
 import { rumUserSessionsClient } from '@dynatrace-sdk/client-classic-environment-v1';
 
 export default async function () {

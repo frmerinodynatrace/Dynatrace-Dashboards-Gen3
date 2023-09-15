@@ -1,3 +1,5 @@
+// Variable that displays Applications
+
 import { rumUserSessionsClient } from "@dynatrace-sdk/client-classic-environment-v1";
 
 export default async function () {

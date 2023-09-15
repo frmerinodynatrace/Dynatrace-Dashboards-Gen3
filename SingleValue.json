@@ -1,3 +1,6 @@
+// Example tile code for a Single Value tile
+
+
 import { rumUserSessionsClient } from '@dynatrace-sdk/client-classic-environment-v1';
   const startTime = Date.parse($dt_timeframe_from).toString();  // Get Dashboard Start Time
   const endTime = Date.parse($dt_timeframe_to).toString();      // Get Dashboard End Time
