@@ -6,8 +6,6 @@ This dashboard provides a performance conversion analysis for your applications 
 
 # Prerequisites
 
-Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
-
 Required: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/custom-applications/additional-configuration/define-custom-action-and-session-properties) from your conversion page (i.e. String: OrderCompleted).
 
 # Target Audience
@@ -37,9 +35,9 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 
 # User Guide
 
-The Conversion Friction Analysis Dashboard is broken down into four sections.
+The Performance Conversion Analysis (Application) Dashboard is broken down into four sections.
 
-![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-0.png)
+![Performance Conversion Analysis (Application) Dashboard](PerformanceConversionAnalysisApplication-0.png)
 
 The dashboard header section has six filters that you can apply to your Conversion Friction Analysis Dashboard and one filter (KPI) that automatically determines the KPI that has the greatest impact on your conversion rate:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
@@ -49,7 +47,7 @@ The dashboard header section has six filters that you can apply to your Conversi
 - AvgOrderValue - Select your average order value. If your application is not revenue generating, then select a value that reflects the internal cost associated with your business transaction. You can also modify the value list to add/adjust values presented.
 - Model - This is a model factor used to project conversion and revenue impacts. This value is a percentage and is used to filter out noise. For example, a value of 25 will consider 25% of projected sessions that are abandoning with problems.
 
-![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-1.png)
+![Performance Conversion Analysis (Application) Dashboard](PerformanceConversionAnalysisApplication-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
 - Sessions: Total number of user sessions.
@@ -59,10 +57,10 @@ The top section is called the KPI banner. This section has the following KPIs:
 
 The first two cells display the current value for the last 24 hours. These KPIs are compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
 
-![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-2.png)
+![Performance Conversion Analysis (Application) Dashboard](PerformanceConversionAnalysisApplication-2.png)
 
 The middle section provides a detailed summary about the KPI that has the greatest impact on your conversion rate. The summary will tell you the difference between converting and abandoning sessions and will project improvements if the difference is neutralized. 
 
-![Conversion Friction Analysis Dashboard](ConversionFrictionAnalysis-3.png)
+![Performance Conversion Analysis (Application) Dashboard](PerformanceConversionAnalysisApplication-3.png)
 
 The bottom section displays a table and a chart. The table lists the top user actions sorted by KPI impact. The chart plots the conversion rate split by the KPI performance (<2s, 2s-3s, etc). This section helps you understand the user action that needs to be tuned and the optimal goal for maximizing conversions. The bottom right corner has two links. The ChatGPT link will detail how to tune the KPI with expert recommendations and the Help link provides dashboard help.
