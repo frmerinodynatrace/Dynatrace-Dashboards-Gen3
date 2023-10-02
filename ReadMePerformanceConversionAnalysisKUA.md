@@ -5,9 +5,7 @@ This dashboard provides a performance conversion analysis for your applications 
 
 # Prerequisites
 
-Required: [Create a conversion goal](https://www.dynatrace.com/support/help/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals) for a user action that indicates a completed business transaction (i.e. Order Confirmation Page).
-
-Required: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/custom-applications/additional-configuration/define-custom-action-and-session-properties) from your conversion page (i.e. String: OrderCompleted).
+Required: [Create a session property](https://www.dynatrace.com/support/help/platform-modules/digital-experience/custom-applications/additional-configuration/define-custom-action-and-session-properties) for your conversion page (i.e. String: OrderCompleted).
 
 # Target Audience
 
@@ -35,9 +33,9 @@ Required: [Create a session property](https://www.dynatrace.com/support/help/pla
 
 # User Guide
 
-The Performance Conversion Analysis Dashboard is broken down into four sections.
+The Performance Conversion Analysis (KUA) Dashboard is broken down into four sections.
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-0.png)
+![Performance Conversion Analysis (KUA) Dashboard](PerformanceConversionAnalysisKUA-0.png)
 
 The dashboard header section has five filters that you can apply to your Performance Conversion Analysis Dashboard:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
@@ -47,7 +45,7 @@ The dashboard header section has five filters that you can apply to your Perform
 - MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
 - ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-1.png)
+![Performance Conversion Analysis (KUA) Dashboard](PerformanceConversionAnalysisKUA-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
 - Performance Metric: Configured based on the KPI and Aggregate selected (i.e. Avg Duration).
@@ -59,10 +57,10 @@ The top section is called the KPI banner. This section has the following KPIs:
 
 Each KPI cell displays the current value for the last 24 hours. Each KPI is compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-2.png)
+![Performance Conversion Analysis (KUA) Dashboard](PerformanceConversionAnalysisKUA-2.png)
 
 The middle section displays the conversion analysis for your Key User Action. Each column filters the data based on the performance range of the Key User Action (i.e. <2s, 2s - 3s). The rows show the conversion count, abandon count and the conversion rate for your Key User Action. 
 
-![Performance Conversion Analysis Dashboard](PerformanceConversionAnalysis-3.png)
+![Performance Conversion Analysis (KUA) Dashboard](PerformanceConversionAnalysisKUA-3.png)
 
 The bottom section charts the conversion rate over the performance ranges. The bottom right corner has two links. The ChatGPT link will detail how to tune the KPI with expert recommendations and the Help link provides dashboard help.
