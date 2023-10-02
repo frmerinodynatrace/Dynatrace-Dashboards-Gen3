@@ -41,26 +41,27 @@ The Performance Conversion Analysis (Application) Dashboard is broken down into 
 
 The dashboard header section has six filters that you can apply to your Conversion Friction Analysis Dashboard and one filter (KPI) that automatically determines the KPI that has the greatest impact on your conversion rate:
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
-- MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
-- ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
+- ConversionGoal - Your session property for Conversion. Change this value after deploy to match the session property that was created for you application to track a converted session.
 - KPI - This filter automatically determines the KPI that has the greatest impact on your conversion rate.
+- Aggregate - KPI aggregation. Select Avg or Median.
 - AvgOrderValue - Select your average order value. If your application is not revenue generating, then select a value that reflects the internal cost associated with your business transaction. You can also modify the value list to add/adjust values presented.
-- Model - This is a model factor used to project conversion and revenue impacts. This value is a percentage and is used to filter out noise. For example, a value of 25 will consider 25% of projected sessions that are abandoning with problems.
+- kpiLimit - This is a filter limit for the KPI with respect to abandons. For example, selecting a value of 3 will only consider sessions that abandonded and had their KPI (i.e. Duration) greater than 3 seconds on their exit action.
 
 ![Performance Conversion Analysis (Application) Dashboard](PerformanceConversionAnalysisApplication-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
 - Sessions: Total number of user sessions.
-- Current Conversion Rate: Rate of sessions that converted.
+- Requestsa: Total number of user actions.
+- KPI: Average or Median for the KPI selected in the variable dropdowns for KPI and Aggregate.
+- APDEX: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
+- Conversion Rate: Rate of sessions that converted.
 - Projected Conversion Rate: Rate of sessions that are projected to convert if the KPI problem is neutralized.
 - Projected Revenue Impact: Projected increase in revenue over seven days if the KPI problem is neutralized.
 
-The first two cells display the current value for the last 24 hours. These KPIs are compared to a seven-day time shift over the past 24 hours and will display, in parentheses, the KPI difference and trend direction.
-
 ![Performance Conversion Analysis (Application) Dashboard](PerformanceConversionAnalysisApplication-2.png)
 
-The middle section provides a detailed summary about the KPI that has the greatest impact on your conversion rate. The summary will tell you the difference between converting and abandoning sessions and will project improvements if the difference is neutralized. 
+The middle section provides a detailed summary about each user action and how the KPI is impacting on your conversion rate. The summary will tell you the difference between converting and abandoning sessions and will project improvements if the difference is neutralized. 
 
 ![Performance Conversion Analysis (Application) Dashboard](PerformanceConversionAnalysisApplication-3.png)
 
-The bottom section displays a table and a chart. The table lists the top user actions sorted by KPI impact. The chart plots the conversion rate split by the KPI performance (<2s, 2s-3s, etc). This section helps you understand the user action that needs to be tuned and the optimal goal for maximizing conversions. The bottom right corner has two links. The ChatGPT link will detail how to tune the KPI with expert recommendations and the Help link provides dashboard help.
+The bottom section displays a distribution for risk abandons for GEO, Browser Family and Browser Type, and the Help link provides dashboard help.
