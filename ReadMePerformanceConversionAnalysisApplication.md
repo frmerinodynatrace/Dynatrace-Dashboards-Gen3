@@ -51,7 +51,7 @@ The dashboard header section has six filters that you can apply to your Conversi
 
 The top section is called the KPI banner. This section has the following KPIs:
 - Sessions: Total number of user sessions.
-- Requestsa: Total number of user actions.
+- Requests: Total number of user actions.
 - KPI: Average or Median for the KPI selected in the variable dropdowns for KPI and Aggregate.
 - APDEX: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
 - Conversion Rate: Rate of sessions that converted.
