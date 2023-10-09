@@ -47,7 +47,7 @@ The dashboard header section has five filters that you can apply to your Revenue
 - AppName - List of applications currently monitored by Dynatrace. Select the application to filter the dashboard for any application.
 - MilestoneGoal - List of conversion goals. Select the conversion goal that indicates the start of a business transaction.
 - ConversionGoal - List of conversion goals. Select the conversion goal that indicates the completion of a business transaction.
-- Revenue - Your session property for Revenue. Change this value after deploy to match the session property that was created for you application to track Revenue.
+- Revenue - List of session properties (Double). Select your session property for Revenue. 
 - TimeShift - Value in days used by metrics to compare against. For example, a value of 7 will compare the KPI based on the current timeframe and compare that value to the same timeframe shifted by 7 days.
 
 ![Revenue Overview Dashboard](RevenueOverview-1.png)
