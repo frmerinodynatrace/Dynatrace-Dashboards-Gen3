@@ -16,7 +16,7 @@ None.
 
 # Use Cases
 
-- What is the overal health of Ecosystem?
+- What is the overall health of Ecosystem?
 - Is MTTR currently acceptable?
 - Is my Network healthy and free of errors?
 - Is my application easy to use and are my users achieving good experiences?
