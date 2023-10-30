@@ -16,7 +16,16 @@ None.
 
 # Use Cases
 
-- Is my user traffic increasing?
+- What is the overal health of Ecosystem?
+- Is MTTR currently acceptable?
+- Is my Network healthy and free of errors?
+- Is my application easy to use and are my users achieving good experiences?
+- Are my customers satisfied with their digital experiences?
+- Do I have any Security exposures that need attention?
+- Do I have any critical log messages that need attention?
+- How are my Hosts performing?
+- How are my Services performing?
+- Are any of my Services failing and need attention?
 
 # Install Instructions
 
@@ -61,6 +70,6 @@ The middle section displays the following Graphs and Metrics:
 - Host KPI and Health - Host Health status as determined by Davis.
 - Service KPI and HEalth - Service Health status as determined by Davis.
  
-![Operational Health Dashboard](Operational Health-3.png)
+![Operational Health Dashboard](OperationalHealth-3.png)
 
 The bottom section charts Problem count over the current timeframe.
