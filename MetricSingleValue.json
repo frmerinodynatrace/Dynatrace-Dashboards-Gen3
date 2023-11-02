@@ -1,0 +1,17 @@
+import { metricsClient } from '@dynatrace-sdk/client-classic-environment-v2';
+const metricName = "builtin:service.response.time:splitBy():avg"
+export default async function fetchMetricResults() {
+  const config = {
+    metricSelector: metricName,
+    resolution: "Inf",
+    from: $dt_timeframe_from,
+    to: $dt_timeframe_to,
+    acceptType: "application/json; charset=utf-8"
+  };
+  const metricQuery = await metricsClient.query(config);
+  const processedResults: MetricResult[] = metricQuery.result[0].data.map(result => {
+    console.log(result.values[0])
+    return result.values[0];
+  });
+  return processedResults;
+}
