@@ -8,5 +8,5 @@ import { rumUserSessionsClient } from '@dynatrace-sdk/client-classic-environment
 
 export default async function () {
   const result = await rumUserSessionsClient.getUsqlResultAsTable({query: query, startTimestamp: startTime, endTimestamp: endTime});
-  return (result["values"][0][0]/1000).toFixed(2)+"s";
+  return Number(result["values"][0][0]/1000);
 }
