@@ -1,4 +1,4 @@
-# Executive Overview Dashboard
+# User Experience Overview Dashboard
 This dashboard provides an executive level overview on KPIs and Customer Experience.
 
 ![Executive Overview Dashboard](ExecutiveOverview.png)
@@ -31,7 +31,7 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 # Install Instructions
 
-- Download [Dashboard JSON](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/Executive%20Overview.json)
+- Download [Dashboard JSON](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/User%20Experience%20Overview.json)
 - Launch the new Gen3 UI
 - Select the Dashboard app
 - In the upper righthand corner, select Upload and select your json file
@@ -39,7 +39,7 @@ Required: [Create a conversion goal](https://www.dynatrace.com/support/help/plat
 
 # User Guide
 
-The Executive Overview Dashboard is broken down into four sections.
+The User Experience Overview Dashboard is broken down into four sections.
 
 ![Executive Overview Dashboard](ExecutiveOverview-0.png)
 
