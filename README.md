@@ -18,7 +18,7 @@ This repo provides Business Grade Dashboards for Dynatrace Gen3. Click on any Da
 ## Business Dashboard Content Library
 
 - [User Experience Overview Dashboard](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeExecutiveOverview.md)
-![User Experience Overview Dashboard](UserExperienceOverview.png)
+![User Experience Overview Dashboard](ExecutiveOverview.png)
 - [Conversion Overview Dashboard](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeConversionOverview.md)
 ![Conversion Overview Dashboard](ConversionOverview.png)
 - [Revenue Overview Dashboard](https://github.com/TechShady/Dynatrace-Dashboards-Gen3/blob/main/ReadMeRevenueOverview.md)
