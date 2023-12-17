@@ -52,28 +52,30 @@ The dashboard header section has four filters that you can apply to your Executi
 ![Executive Overview Dashboard](ExecutiveOverview-1.png)
 
 The top section is called the KPI banner. This section has the following KPIs:
-- Avg Duration: Time between the initial user input and complete page load.
-- Avg Errors: Average number of Request and JavaScript Errors.
-- Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
-- Deficiency Rate: Rate of sessions that abandoned with poor user experience. A perfect deficiency rate is 0.
-- Conversion Rate: Rate of sessions that converted.
-- Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
 
-Each KPI cell displays the current value based on the selected timeframe. Each KPI is compared to a time shift that is selected in the TimeShift variable dropdown and will display, in parentheses, the KPI difference and trend direction.
+- Application Health: Application Health will be Green if the 6 indicators to the right are all Green. If any indicator is Red, Application Health will be Red. Otherwise Application Health is Yellow.
+- Avg Duration: Time between the initial user input and complete page load. Avg Duration > 6s = Red. Avg Duration > 3s and < 6s = Yellow. Avg Duration < 3s = Green.
+- Avg Errors: Average number of Request and JavaScript Errors.  Avg Errors > 2 = Red. Avg Errors > 0 = Yellow. Avg Errors = 0 = Green.
+- Efficiency Rate: Rate of sessions that converted with good user experience. Rate < 50% = Red. Rate < 75% and > 50% = Yellow. Rate > 75% = Green.
+- Deficiency Rate: Rate of sessions that abandoned with poor user experience. Rate > 50% = Red. Rate > 25% and < 50% = Yellow. Rate < 25% = Green.
+- Conversion Rate: Rate of sessions that converted. Rate < 40% = Red. Rate < 60% and > 40% = Yellow. Rate > 60% = Green.
+- Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1. Apdex < .8 = Red. Apdex >.8 and < .92 is Yellow. Rate > .92 is Green.
 
 ![Executive Overview Dashboard](ExecutiveOverview-2.png)
 
 The middle section KPI metrics (with comparison to a seven-day time shift) for: 
 - Sessions - Total number of user sessions.
 - New Sessions - Total number of new user sessions.
-- Satisfied Sessions - Total number of user sessions that had a user experience score of SATISFIED.
-- Tolerated Sessions - Total number of user sessions that had a user experience score of TOLERATED.
-- Frustrated Sessions - Total number of user sessions that had a user experience score of FRUSTRATED.
-- Avg Time On Site - Average session duration.
+- Avg Duration: Time between the initial user input and complete page load.
+- Avg Errors: Average number of Request and JavaScript Errors.
 - Requests - Total number of user actions.
 - Bounces - Total number of user sessions that bounced from the web site.
-- Conversions - Total number of user sessions that reached the conversion goal.
-- Abandons - Total number of user sessions that did not reach the conversion goal.
+- Efficiency Rate: Rate of sessions that converted with good user experience. A perfect efficiency rate is 100.
+- Deficiency Rate: Rate of sessions that abandoned with poor user experience. A perfect deficiency rate is 0.
+- Conversion Rate: Rate of sessions that converted.
+- Avg Clicks To Convert: The average number of user actions executed within a user session that converted.
+- Apdex: Application Performance Index is a standard developed by an alliance of companies for measuring the performance of applications. A perfect Apdex score is 1.
+- Avg Time On Site - Average session duration.
 
 Each KPI cell displays the current value based on the selected timeframe. Each KPI is compared to a time shift that is selected in the TimeShift variable dropdown and will display, in parentheses, the KPI difference and trend direction.
 
